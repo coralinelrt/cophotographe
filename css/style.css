@@ -1,0 +1,54 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.panels{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+}
+
+.panel{
+    height: 100%;
+    flex:1;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition : flex .7s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel:hover{
+    flex:5;
+}
+.panel:hover>.titreJeu{
+    opacity: 100%;
+}
+.lion{
+    background-image: url("../img/DSC_2133.jpg");
+}
+.hands{
+    background-image: url("../img/EquitaLyon.JPG");
+}
+
+.eye{
+    background-image: url("../img/DSC07259.JPG");
+}
+.road{
+    background-image: url("../img/Victoria.JPG");
+}
+
+
+.titreJeu{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 3em;
+    opacity: 0%;
+    transition: opacity 1s;
+}
