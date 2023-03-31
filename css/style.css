@@ -3,9 +3,17 @@ html, body{
     padding: 0;
 }
 
+.mesimages{
+    height:50vh;
+    width: auto;
+    object-fit: cover;
+}
+
+
 .panels{
     height: 100vh;
     width: 100vw;
+
     display:flex;
 }
 
@@ -26,29 +34,19 @@ html, body{
 .panel:hover{
     flex:5;
 }
-.panel:hover>.titreJeu{
+.panel:hover>NomLieu{
     opacity: 100%;
 }
-.lion{
+
+.Equain{
     background-image: url("../img/DSC_2133.jpg");
 }
-.hands{
+.EquitaLyon{
     background-image: url("../img/EquitaLyon.JPG");
 }
-
-.eye{
+.Arnas{
     background-image: url("../img/DSC07259.JPG");
 }
-.road{
+.Thomas{
     background-image: url("../img/Victoria.JPG");
-}
-
-
-.titreJeu{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    font-weight: bolder;
-    font-size: 3em;
-    opacity: 0%;
-    transition: opacity 1s;
 }
