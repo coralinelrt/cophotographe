@@ -1,19 +1,14 @@
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
 }
 
-h1{
-    background-image: url(../img/DSC_2072.jpg);
-    padding: 100px;
-}
 
-.mesimages{
-    height:50vh;
+
+
+.mesimages {
+    height: 50vh;
     width: auto;
     object-fit: cover;
-}
-
-.tailleimage{
-width: 100%;
 }

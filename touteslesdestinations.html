@@ -2,79 +2,119 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toutes les destinations</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/touteslesdestinations.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoPhotographe</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/touteslesdestinations.css">
 </head>
-
-
-
 
 <body>
 
-
-
-
-
-
-
-
-    
-    <h1 class="redColor">DESTINATIONS</h1>
-    <h2> Retrouvez toutes les destinations, lieux de shootings photos comme lieux de compétitions depuis mes débuts avec quelques exemples !</h2>
-    <h3> Contactez-moi pour obtenir les photos de vos parcours en fonction de ma présence sur la compétition en question. </h3>
-
-
-
-
-    <div class="panels1">
-
-        <div class="panel equain">
-            <span class="nomlieu">Equ'ain</span>
-        </div>
-        <div class="panel equitaLyon">
-            <span class="nomlieu">EquitaLyon</span>
-        </div>
-        <div class="panel arnas">
-            <span class="nomlieu">Arnas Sauvageonne</span>
-        </div>
-
-    </div>
-    <div class="panels2">
-
-        <div class="panel thomas">
-            <span class="nomlieu">Thomas Lévêque</span>
-        </div>
-         <div class="panel equain">
-            <span class="nomlieu">Equ'ain</span>
-        </div>
-        <div class="panel equitaLyon">
-            <span class="nomlieu">EquitaLyon</span>
-        </div>
-
-    </div>
-    <div class="panels3">
-
-        <div class="panel arnas">
-            <span class="nomlieu">Arnas Sauvageonne</span>
-        </div>
-        <div class="panel thomas">
-            <span class="nomlieu">Thomas Lévêque</span>
-        </div>
-
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">CoPhotographe</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="actualites.html">Actualités</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="menu-dropdown" href="touteslesdestinations.html" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Destinations</a>
+            <ul class="dropdown-menu" aria-labelledby="menu-dropdown">
+              <li><a class="dropdown-item" href="touteslesdestinations.html">Toutes les destinations</a></li>
+              <li><a class="dropdown-item" href="touteslesdestinations.html">Equ'ain</a></li>
+              <li><a class="dropdown-item" href="touteslesdestinations.html">Arnas Sauvageonne</a></li>
+              <li><a class="dropdown-item" href="touteslesdestinations.html">Chazey sur Ain</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
-      
-      
-      
+    </div>
+  </nav>
+
+
+      <div class="mesdestinations d-flex justify-content-center align-items-center my-5">
+        <h1>DESTINATIONS</h1>
+      </div>
+
+  <body>
+    <div class=" mescardsdesti container my-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/equain (6).jpg" class="card-img-top" alt="Image 1">
+            <div class="card-body">
+              <h5 class="card-title text-center"> <a href="touteslesdestinations.html" style="color: black;"> Equ'ain </a> </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/chazey (3).jpeg" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <h5 class="card-title text-center"> <a href="touteslesdestinations.html" style="color: black;"> Chazey </a> </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/arnas (2).JPG" class="card-img-top" alt="Image 3">
+            <div class="card-body">
+              <h5 class="card-title text-center"> <a href="touteslesdestinations.html" style="color: black;"> Arnas </a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/montpellier (6).jpg" class="card-img-top" alt="Image 4">
+            <div class="card-body">
+              <h5 class="card-title text-center"> <a href="touteslesdestinations.html" style="color: black;"> Montpellier </a> </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/equita (21).JPG" class="card-img-top" alt="Image 5">
+            <div class="card-body">
+              <h5 class="card-title text-center"> <a href="touteslesdestinations.html" style="color: black;"> EquitaLyon </a></h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="img/accueil.JPG" class="card-img-top" alt="Image 6">
+            <div class="card-body">
+              <h5 class="card-title text-center"> <a href="touteslesdestinations.html" style="color: black;"> Valence </a> </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  
 
 
 
+   
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script> 
+  <footer class=" monfooter bg-secondary text-white text-center py-3">
+    <h2 class="fw-bold mb-0">©CoPhotographe</h2>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+
 </body>
-
 
 </html>
